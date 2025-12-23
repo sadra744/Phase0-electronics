@@ -1,3 +1,32 @@
-# Voltage Divider
+# Voltage Divider Experiment
 
-This experiment will be added soon.
+## Goal
+Understand how a voltage divider behaves with and without load.
+
+## Circuit
+Two 1kΩ resistors connected in series with a 9V supply.
+
+## Components
+- R1 = 1kΩ
+- R2 = 1kΩ
+- Vin = 9V
+
+## Theory
+Vout = Vin × (R2 / (R1 + R2))
+
+Expected Vout (no load): 4.5V
+
+## Measurement (No Load)
+Measured Vin: ___ V  
+Measured Vout: ___ V  
+
+## Load Test
+Load resistor connected: ___ Ω  
+Measured Vout with load: ___ V  
+
+## Observation
+When a load is connected, the output voltage drops because the load is in parallel with R2.
+
+## Conclusion
+A voltage divider is suitable for voltage sensing but not for powering loads.
+
